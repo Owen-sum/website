@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web and App Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Tailwind and React",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "3D Modeling and Animation",
     icon: creator,
   },
 ];
@@ -198,16 +198,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DnD Campaign Manager",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A auto updating web app created for managing a SQL database that store DnD campaign infromation.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
@@ -216,40 +216,40 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/osu-cs340-team193/DnDCampaignHelper.git",
   },
   {
-    name: "Job IT",
+    name: "Connectify",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A music rating site that uses the Spotify API. Users can search, comment, find recommendations and 'favorite' songs. They can also try to get them on the site's top 5 list!",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/osu-cs290-f23/final-project-music-team.git",
   },
   {
-    name: "Trip Guide",
+    name: "Digital Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A site made using javascript and HTML that displays all my digital art. Most of my finished work is posted here including gifs for the animated ones.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +258,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://owen-summ.github.io/artPortfolio/digitalArt.html?fbclid=PAAaa2nHuSkb7KekqQueR3_43qL9NO5zkaciYEFQYRB5iWQrj2pv0UF6QO7ow",
   },
 ];
 
