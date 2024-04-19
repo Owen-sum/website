@@ -38,8 +38,8 @@ const Hero = () => {
 
       <div>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}style={{ position: 'absolute', top: '67vh', left: '50vw', transform: 'translate(-50%, -50%)' }}>
-            Thank you for checking out my site! <br className='sm:block hidden' /> I'm an web and app developer <br className='sm:block hidden' />
-            with a intrest in 3d design.
+            Thank you for checking out my site! <br className='sm:block hidden' /> I'm a web and app developer <br className='sm:block hidden' />
+            with an intrest in 3D design.
           </p>
       </div>
     </section>
