@@ -11,7 +11,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-[#D4A2FF]`} style={{ position: 'absolute', top: '30vh', left: '50%', transform: 'translate(-50%, -50%)' }}>
-            Hey! I'm
+            Hello! I'm
           </h1>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       <div>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}style={{ position: 'absolute', top: '67vh', left: '50vw', transform: 'translate(-50%, -50%)' }}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}style={{ position: 'absolute', top: '67vh', left: '50vw', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
             Thank you for checking out my site! <br className='sm:block hidden' /> I'm a web and app developer <br className='sm:block hidden' />
             with an intrest in 3D design.
           </p>
