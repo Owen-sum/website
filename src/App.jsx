@@ -11,6 +11,13 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <iframe
+            src={`${process.env.PUBLIC_URL}/unity-build/index.html`} 
+            width="800"
+            height="600"
+            style={{ border: "none", display: "block", margin: "auto" }}
+            title="Unity WebGL Game"
+          />
         <Works />
         <div className='relative z-0'>
           <StarsCanvas />
